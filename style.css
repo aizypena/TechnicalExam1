@@ -1,0 +1,126 @@
+* {
+    font-family: "Noto Sans-DisplaySemiBold", Helvetica;
+}
+
+.mainContainer {
+    background-image: url("https://images.pexels.com/photos/17483120/pexels-photo-17483120/free-photo-of-colorful-abstract-background-paper-composition.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box {
+    height: 500px;
+    width: 320px;
+    background-color: rgba(251, 251, 251, 0.78);
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px 2px #00000040;
+}
+
+.albumArt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 7% 8% 7%;
+}
+
+.album-image {
+    width: 165px;
+    height: auto;
+    border-radius: 3px;
+    transform: translateX(-112px);
+}
+
+.album-vinyl {
+    height: 155px;
+    transform: translateX(112px);
+}
+
+.songInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+#songName {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+}
+
+#songArtist {
+    margin: 0;
+    font-weight: lighter;
+    font-size: 13px;
+    margin-top: 6px;
+}
+
+#songTime {
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(13px);
+}
+
+.timeNumber {
+    font-size: 10px;
+}
+
+.songTime-container {
+    padding: 1% 12%;
+    margin-top: 5%;
+}
+
+#timeSeeker {
+    margin: 0;
+}
+
+#slider {
+    width: 100%;
+    height: 4px;
+}
+
+.btn-mainContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#btn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10% 5%;
+    width: 80%;
+}
+
+.btn-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(
+        180deg,
+        rgb(150, 56, 90) 0%,
+        rgb(102, 37, 93) 100%
+    );
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#play {
+    font-size: 35px;
+}
+
+.controll-btn {
+    font-size: 35px;
+    color: rgba(147, 55, 91, 0.8);
+    cursor: pointer;
+}
