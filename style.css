@@ -134,7 +134,7 @@
     box-shadow: 0 0 20px #632964, 0 0 30px #632964, 0 0 40px #632964;
 }
 
-#play {
+#playPauseIcon {
     font-size: 35px;
 }
 
@@ -146,4 +146,9 @@
 
 .controll-btn:hover {
     color: #632964;
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
 }
